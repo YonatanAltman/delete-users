@@ -1,0 +1,9 @@
+:host{
+
+  .some{
+    height: 50px;
+  }
+  .some2{
+    height: calc(100vh - 50px);
+  }
+}

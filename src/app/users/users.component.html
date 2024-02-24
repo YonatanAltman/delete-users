@@ -1,0 +1,12 @@
+<div class="count">{{ users.length }}</div>
+<div class="count">{{ currentUser()?.email }}</div>
+
+
+<div class="list">
+  <div class="user" *ngFor="let item of users" (click)="selectUser(item)">
+    <div class="name">{{ item.name }}</div>
+    <div class="role">{{ item.role }}</div>
+
+
+  </div>
+</div>
